@@ -28,4 +28,6 @@ def is_palindrome(phrase):
     new_phrase = ''.join(split_phrase)
 
 
-    return phrase.lower().replace(' ', '') == new_phrase
+    return smaller_phrase == new_phrase
+
+

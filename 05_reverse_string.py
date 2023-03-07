@@ -8,9 +8,14 @@ def reverse_string(phrase):
         'ecuas'
     """
 
-    phrase_list = list(phrase)
-    phrase_list.reverse()
-    reverse = "".join(phrase_list)
+    # phrase_list = list(phrase)
+    # phrase_list.reverse()
+    # reverse = "".join(phrase_list)
 
-    return reverse
+
+
+    # return reverse
+
+
+    return phrase[::-1]
 

@@ -29,7 +29,7 @@ def weekday_name(day_of_week):
         if day == day_of_week:
             return days[day]
 
-    return
+
 
 
 

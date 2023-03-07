@@ -16,4 +16,4 @@ def last_element(lst):
 
     copy = lst[:]
 
-    return copy[-1] if len(lst) else None
+    return copy[-1] if lst else None
