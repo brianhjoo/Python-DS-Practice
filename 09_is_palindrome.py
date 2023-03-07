@@ -21,3 +21,11 @@ def is_palindrome(phrase):
         >>> is_palindrome('Noon')
         True
     """
+
+    smaller_phrase = phrase.lower().replace(' ','')
+    split_phrase = list(smaller_phrase)
+    split_phrase.reverse()
+    new_phrase = ''.join(split_phrase)
+
+
+    return phrase.lower().replace(' ', '') == new_phrase
